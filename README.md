@@ -5,3 +5,4 @@ A game has been build base on Flappy Bird
 <div class="center">
 <img src="demo1.png">
 <img src="demo3.png">
+</div>
