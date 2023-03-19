@@ -21,17 +21,17 @@ try:
 	text30 = pygame.font.SysFont('Comic Sans MS', 30)
 
 	# sound
-	Gau = pygame.mixer.Sound('cho_sua.mp3')
-	Ang = pygame.mixer.Sound('cho_ang.mp3')
-	Bomp = pygame.mixer.Sound('boom.mp3')
+	Gau = pygame.mixer.Sound('Sound\cho_sua.mp3')
+	Ang = pygame.mixer.Sound('Sound\cho_ang.mp3')
+	Bomp = pygame.mixer.Sound('Sound\boom.mp3')
 
 	# image
-	BackGround = pygame.image.load('background.png')
-	Corgi = pygame.image.load('corgi.png') # ảnh Corgi trong gameplay
-	land = pygame.image.load('land.png') # ảnh nền đất
-	ClickToFly = pygame.image.load('clicktofly.png') 
-	Mouse = pygame.image.load('mouse.png')
-	Boom  = pygame.image.load('boom.png')
+	BackGround = pygame.image.load('Image\background.png')
+	Corgi = pygame.image.load('Image\corgi.png') # ảnh Corgi trong gameplay
+	land = pygame.image.load('Image\land.png') # ảnh nền đất
+	ClickToFly = pygame.image.load('Image\clicktofly.png') 
+	Mouse = pygame.image.load('Image\mouse.png')
+	Boom  = pygame.image.load('Image\boom.png')
 
 	# BackGround
 	BACKGROUND_X = 0
@@ -90,8 +90,8 @@ try:
 	pygame.mouse.set_visible(False) 
 
 	# pipe
-	top_pipe = pygame.image.load('top_pipe.png')
-	bot_pipe = pygame.image.load('bot_pipe.png')
+	top_pipe = pygame.image.load('Image\top_pipe.png')
+	bot_pipe = pygame.image.load('Image\bot_pipe.png')
 	pipe_list = []
 	pipe_high = [240,200,160,120,80,40]
 	pipe_distance = 500 # khoảng cách giữa các pipe
